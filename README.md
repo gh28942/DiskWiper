@@ -23,14 +23,6 @@ You can see how the program works [on Youtube](https://youtu.be/yx7NStpNelw).
 
   usage:     wipe PATH (-co/-ro) (-wr/-wf) num1 (-r) num2
   
-  
-  example 1: wipe "/media/amnesia/Lego USB" -co -wr 1
-  
-  example 2: wipe /media/amnesia/LegoUSB -ro -wf 3
-  
-  example 2: wipe /media/amnesia/LegoUSB -ro -wf 1 -r 5000
-  
-  
   PATH    - path to a folder on the disk that should be used for the disk wipe operation.
     
   -co       - clear overwrite (whitespaces in a file)
@@ -46,6 +38,16 @@ You can see how the program works [on Youtube](https://youtu.be/yx7NStpNelw).
   num2    - optional: How much space to overwrite. In GB. Per deafult, up to 1 TB will be overwritten. Larger values can be used for larger disks, e.g. 5000 for 5 TB. Smaller values can be used to test the program. (smallest size: 0.1 GB)
     
   -r        - optional: use more random file sizes
+  
+  <br>
+  
+  *Examples:*
+  
+wipe "/media/amnesia/Lego USB" -co -wr 1
+  
+wipe /media/amnesia/LegoUSB -ro -wf 3
+  
+wipe /media/amnesia/LegoUSB -ro -wf 1 -r 5000
   
  <br><br>
 
