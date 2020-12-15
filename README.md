@@ -1,6 +1,8 @@
 # Disk wiper and obfuscator 
 A program that overwrites deleted data on a disk. Additionally, obfuscation can be used to confuse an attacker who isn't a computer forensic investigator. This will create fake mp4 files on the deleted space. Written in C. Works on Linux and Windows. Tested on Tails (USB), Ubuntu (Virtual Box) and Windows 10. 
 
+You can see how the program works [on Youtube](https://youtu.be/yx7NStpNelw). 
+
 
 * man  - manual
 
